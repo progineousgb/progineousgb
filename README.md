@@ -1,59 +1,36 @@
 <div align="center">
 
+<img src="https://gitlab.com/progineous/progineous/-/raw/main/logo.png" alt="Pro Gineous" width="280">
 
-<img src="https://gitlab.com/progineous/progineous/-/raw/main/logo.png" alt="Pro Gineous - Name It. Host It. Grow It." width="420">
+</div>
 
-Domains, shared hosting, VPS and dedicated servers, built and run by a team that cares about uptime, fair prices and your ownership of your data.
+Pro Gineous sells domains, shared hosting, VPS and dedicated servers. This account is where the scripts and server configs are published.
 
 [Website](https://progineous.com) · [Blog](https://blog.progineous.com) · [X](https://x.com/ProGineous) · [LinkedIn](https://www.linkedin.com/company/progineous/) · [Instagram](https://www.instagram.com/progineous/)
 
-</div>
+## Scripts
 
----
+| Repo | What it does |
+| --- | --- |
+| [who-is-eating-my-server](https://github.com/progineousgb/who-is-eating-my-server) | Two-second sample of CPU, RAM, disk and network, named by process, service or container. Read-only. |
+| [vps-audit](https://github.com/progineousgb/vps-audit) | Scores a Linux VPS on basic security checks and prints the fix for each finding. Does not change the server. |
+| [ssl-watch](https://github.com/progineousgb/ssl-watch) | Certificate expiry for domains configured on the server. Warns under 14 days, critical under 7. For cron. |
+| [docker-cleanup-report](https://github.com/progineousgb/docker-cleanup-report) | Docker disk use, split into safe and risky cleanup, with the commands to run. Deletes nothing. |
+| [server-toolkit](https://github.com/progineousgb/server-toolkit) | Bash scripts for VPS hardening, disk usage, RDAP domain expiry, DNS, DMARC and WordPress backups. Read-only unless a flag says otherwise. |
 
-## What we do
+## Configs and notes
 
-| Service | What you get |
-|---|---|
-| **Domains** | Register and manage your domain, with full control and no lock-in |
-| **Shared Hosting** | Fast WordPress-ready hosting with free site migration |
-| **VPS** | Root access, your choice of OS, starting at $6.96/mo |
-| **Dedicated Servers** | Full machines for heavy workloads |
-
-## How we work
-
-- **Your data is yours.** Domains and data belong to their owners. We make moving in and out easy.
-- **Fair prices.** Clear pricing without surprise renewals.
-- **Built by engineers.** Our team has worked in DevOps and cloud infrastructure since 2018.
-
-## Tech we use
-
-`Linux` · `Docker` · `Nginx` · `LiteSpeed` · `Laravel` · `WordPress`
-
-## Open source
-
-We keep the configs and scripts we use on real servers public on [GitLab](https://gitlab.com/pro-gineous-group):
-
-- [server-toolkit](https://gitlab.com/pro-gineous-group/server-toolkit): small scripts for day to day server work
-- [compose-stacks](https://gitlab.com/pro-gineous-group/compose-stacks): Docker Compose stacks behind Caddy
-- [nginx-configs](https://gitlab.com/pro-gineous-group/nginx-configs): Nginx configs we actually run
-- [vps-bootstrap](https://gitlab.com/pro-gineous-group/vps-bootstrap): cloud-init and Ansible for a fresh VPS
-- [gitlab-ci-templates](https://gitlab.com/pro-gineous-group/gitlab-ci-templates): CI templates
-- [dns-email-records](https://gitlab.com/pro-gineous-group/dns-email-records): DNS and email records explained
-- [awesome-self-hosting-vps](https://gitlab.com/pro-gineous-group/awesome-self-hosting-vps): apps worth running on your own VPS
+- [nginx-configs](https://github.com/progineousgb/nginx-configs): server blocks for a static site, WordPress, Laravel and a reverse proxy, plus TLS and rate-limit snippets. Debian and Ubuntu paths.
+- [compose-stacks](https://github.com/progineousgb/compose-stacks): Compose projects for WordPress, Nextcloud, Vaultwarden, n8n, Umami and Uptime Kuma. Each app is its own project, behind one Caddy proxy.
+- [vps-bootstrap](https://github.com/progineousgb/vps-bootstrap): cloud-init and Ansible for a new Debian or Ubuntu VPS. SSH keys only, UFW, fail2ban, unattended upgrades.
+- [gitlab-ci-templates](https://github.com/progineousgb/gitlab-ci-templates): GitLab CI jobs that deploy to a Linux server over SSH. Static sites, Compose, Laravel releases, or one WordPress theme or plugin.
+- [dns-email-records](https://github.com/progineousgb/dns-email-records): example MX, SPF, DKIM, DMARC and MTA-STS records for Google Workspace, Microsoft 365, Zoho and a self-hosted mail server.
+- [awesome-self-hosting-vps](https://github.com/progineousgb/awesome-self-hosting-vps): apps that fit on one small VPS (about 1 to 4 GB of RAM), linked to each project's own site.
 
 ## From the blog
 
-We publish practical guides on servers, domains and hosting at [blog.progineous.com](https://blog.progineous.com).
+- [Disk full on a Linux VPS](https://blog.progineous.com/vps-disk-full/)
+- [Secure a Linux VPS in 15 minutes](https://blog.progineous.com/secure-linux-vps-15-minutes/)
+- [Check a domain's expiry with RDAP](https://blog.progineous.com/rdap-domain-lookup/)
 
-## Get in touch
-
-- Website: [progineous.com](https://progineous.com)
-- Email: dev@progineous.com
-- HQ: London, United Kingdom
-
-<div align="center">
-
-<sub>Shared hosting is $29 for the first year with code <code>new-2026</code>.</sub>
-
-</div>
+dev@progineous.com · London
