@@ -14,9 +14,11 @@ Pro Gineous sells domains, shared hosting, VPS and dedicated servers. This accou
 
 | Repo | Language | What it does |
 | --- | --- | --- |
+| [local-hour](https://github.com/progineousgb/local-hour) | PHP | Run a task at the same local clock time for each user, once, including daylight-saving days. |
 | [logicaline](https://github.com/progineousgb/logicaline) | Python | Restore logical reading order for Arabic text extracted from PDFs. |
 | [markdown-mend](https://github.com/progineousgb/markdown-mend) | PHP | Repair broken markdown from language models before it is rendered. |
 | [once-action](https://github.com/progineousgb/once-action) | TypeScript | Idempotency for Next.js Server Actions: the same key and input replay the stored result, a different input returns a mismatch, and an in-flight duplicate returns a conflict. |
+| [redirect-allow](https://github.com/progineousgb/redirect-allow) | PHP | Allowlist the host of a Laravel redirect target and fall back when it is not allowed. |
 | [wasla](https://github.com/progineousgb/wasla) | JavaScript | Turn a title into a URL slug and keep Arabic letters. |
 
 ## Tools
