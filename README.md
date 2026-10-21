@@ -55,4 +55,4 @@ Pro Gineous sells domains, shared hosting, VPS and dedicated servers. This accou
 - [Secure a Linux VPS in 15 minutes](https://blog.progineous.com/secure-linux-vps-15-minutes/)
 - [Check a domain's expiry with RDAP](https://blog.progineous.com/rdap-domain-lookup/)
 
-dev@progineous.com · London
+github@progineous.com · London

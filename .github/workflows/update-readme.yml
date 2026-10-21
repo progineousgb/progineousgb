@@ -27,7 +27,7 @@ jobs:
             exit 0
           fi
           git config user.name "Pro Gineous"
-          git config user.email "dev@progineous.com"
+          git config user.email "github@progineous.com"
           git add README.md
           git commit -m "Update repo list in README"
           git push
