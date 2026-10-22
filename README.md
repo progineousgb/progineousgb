@@ -25,6 +25,7 @@ Pro Gineous sells domains, shared hosting, VPS and dedicated servers. This accou
 
 | Repo | Language | What it does |
 | --- | --- | --- |
+| [hop-ip](https://github.com/progineousgb/hop-ip) | TypeScript | Read the visitor IP from a proxy header and ignore addresses the client added. |
 | [nabd](https://github.com/progineousgb/nabd) | Python | Self-hosted uptime monitor for a few URLs. |
 | [sari](https://github.com/progineousgb/sari) | Go | Run project tasks from sari.toml and print how long they took. |
 | [waraq](https://github.com/progineousgb/waraq) | Python | Convert documents to Markdown. |
